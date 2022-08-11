@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:rgba(0, 0, 0, 0.5) url(./img/opt.2.jpg) fixed center;
+    background-blend-mode: darken;
+    background-size: cover;
+}
+.content {
+    width: 1400px;
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+
+.content .par {
+    font-family: sans-serif;
+    line-height: 30px;
+    padding-bottom: 25px;
+}
+
+
+.content h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 7rem;
+    color: black;
+    word-spacing: 1rem;
+    font-weight: 700;
+    margin-top: 20%;
+}
+
+.content h1 .textspan {
+    background-color: white;
+    padding: 0 25px;
+}
+
+.content .header2 #txtspan {
+    background-color: white;
+    padding: 0 25px 0 0;
+    font-weight: 700;
+    
+}
+
+.content .header2 .txspan {
+    color: black;
+    background: white;
+    padding: 0 0 0 25px;
+}
+
+.content .header2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 7rem;
+    word-spacing: 1rem;
+    color: rgba(247, 67, 67);
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 6rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+section {
+    width: 1400px;
+    height: auto;
+    margin: auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 690px 690px;
+    justify-content: space-between;
+}
+
+.container1 {
+    background: rgb(247, 67, 67);
+}
+
+.content__body {
+    width: 620px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 2.4rem;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 5rem;
+}
+
+.par {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 4rem;
+    line-height: 3rem;
+    font-size: 1.2rem;
+}
+
+.reachout {
+    margin-top: 4rem;
+    color: black;
+    font-weight: 900;
+    margin-bottom: 0.5rem ;
+}
+
+h4 {
+    font-size: 1.4rem;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 7rem;
+}
+.container2 {
+    background: rgb(247, 67, 67); 
+}
+
+.container2 h2 {
+    margin-left: 2rem;
+}
+
+.left__right {
+    width: 620px;
+    margin: auto;
+    font-size: 3rem;
+    display: grid;
+    grid-template-columns: 260px 260px;
+    justify-content: space-between;
+    
+}
+
+.left__right h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    color: black;
+    text-decoration: underline;
+}
+
+.left__right p {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 3rem;
+    line-height: 3rem;
+    font-size: 1.2rem;
+}
+
+.left__right h4 {
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+    font-weight: 900;
+}
