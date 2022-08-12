@@ -1,60 +1,11 @@
-.header img {
-    float: left;
-    width: 100px;
-    height: 100px;
-    background: #555;
-  }
-body{
+h1{
+    background-color: #ffffff;
 
-    background-color: black;
+
 }
 
 
 body {background-image: url("Background.jpeg");
     background-size:cover;}
-
-    h1{
-       /* background-color: white; */
-        color: #000000;
-        padding: 1.5%;
-        font-style: italic;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-
-          .Nav{
-                          padding: 3vh,1vw,3vh,1vw;
-                          background-color: gray;
-                          color: white;
-                       
-          }
-
-          .Nav l1 + l1 ::before {
-            contain: "|";
-            padding 1rem;
-
-
-          }
-
-    /*
-    {
-
-    display: flex;
-
-}
-body, html {
-    background-color: #f9fafa;
-    color: #20303c;
-    font-family: Madefor,Helvetica Neue,Helvetica,Arial,メイリオ,meiryo,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    height: 100%;
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-
-    }
-    */
 
     
