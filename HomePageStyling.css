@@ -1,11 +1,82 @@
-h1{
-    background-color: #ffffff;
-
+#Content{
+         color: black;
+         
 
 }
-
+ h1 span{
+   background-color: white;
+   text-align: center;
+   font-size: xx-large;
+   
+ }
 
 body {background-image: url("Background.jpeg");
     background-size:cover;}
 
-    
+    #logo{ width: 8%;
+            
+
+    }
+  
+
+    #Wrapper{
+               /*border: 1px solid red;*/ /*Used to outline the wrapper border*/
+               height: 600px; /*Used declare height of parent wrapper*/
+               text-align: right; /*Used to align text to the right*/
+               padding: 1ch;   /* used to put space between parent div and kids at the top and bottom*/
+               background-color: white;
+               
+              
+               
+            
+
+    }
+    #div1{
+            display: inline-block;
+            width: 600px;
+            height: 600px;
+           /* border: 1px solid black; */
+            text-align: left;
+            font-size: large;
+            
+         
+            
+    }
+     #div2{ vertical-align: top;
+            vertical-align: bottom;
+            display: inline-block;
+            width: 600px;
+            height: 600px;
+          /*  border: 1px solid greenyellow; */
+            text-align: left;
+
+
+
+
+     }
+         
+     #DIVB{
+        background-color: black;
+        color: white;
+        width: 190px;
+        text-align: center;
+        
+        
+     }
+
+   /* .Lower{
+            display: flexbox;
+            justify-items: right;
+            background-color:white;
+            content: unset;
+            border: 50cm red;
+            height: 18ch;
+            width: 20ch;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    #Div2{
+
+        background-color: black;
+        display: inline-block;
+    }*/
