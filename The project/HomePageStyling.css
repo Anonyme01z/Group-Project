@@ -179,12 +179,14 @@
         font-size: 20px;
         font-style: bold;
         line-height: 1.5em;
-        margin-right: 500px;
+        margin-right: 300px;
     }
-    #par{
+    .par2{
         background-color: rgb(247, 67, 67);
-        height: 150px;
-        width: 150px;
+        height: 180px;
+        width: 180px;
         float: left;
         margin: 10px;
+        font-size: 80px;
+        font-family: 'Times New Roman', Times, serif;
     }
