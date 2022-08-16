@@ -10,96 +10,6 @@ body{
     background-image: linear-gradient(rgba(0,0,0,0.5));*/
     font-family: "Poppins";
     font-weight: 300;
-    
-}
-/*styling for the nav bar*/
-.nav_links{
-    display: flex;
-    justify-content: center;
-    padding: 38px;
-    margin-top: 5px;
-    align-items: center;
-}
-
-.nav-link{
-    display: flex;
-    height: 50px;
-    border: 1px solid black;
-    transition: border-bottom 0.5s;
-    background: grey;
-    justify-content: center;
-    align-items: center;
-    background-image: url(Background.jpeg);
-    background-image: linear-gradient(rgb(0,0,0,0.5));
-}
-.nav-link p{
-    height: 100%;
-    max-width: 100%;
-    border-bottom: black;
-    border-top: black;
-    border-left: white;
-    border-right: white;
-    margin: auto;
-}
-.nav-link p2:hover{
-    color:black
-}
-.nav-link p2{
-    height: 50px;
-    max-width: 100%;
-    border-bottom: black;
-    border-top: black;
-    border-left: white;
-    border-right: white;
-    margin: auto;
-    background-color:white;
-}
-.nav-link > p2 > a{
-    color:black;
-}
-
-.nav-link p1{
-    height: 50px;
-    max-width: 100%;
-    border-bottom: black;
-    border-top: black;
-    border-left: white;
-    border-right: white;
-    margin: auto;
-    background-color: rgb(247,67,67);
-    
-}
-.nav-link a {
-    background-color:transparent;
-    color: white;
-    text-decoration: none;
-    transition: color 0.5s;
-    
-}
-.nav-link > p > a{
-    background-color:transparent;
-    
-}
-.nav-link > p:hover{
-    background-color:white;
-}
-.nav-link > p > a:hover{
-    color:black;
-}
-.nav-link > p1 > a{
-    background-color: transparent;
-    color:black;
-}
-.nav-link > p1:hover{
-    background-color:black;
-}
-.nav-link > p1 > a:hover{
-    color:white;
-}
-.nav-link img{
-    height: 51px;
-    width:51px;
-    margin: auto;
 }
 /*styling for the web body-content*/
 .body-container{
@@ -242,6 +152,9 @@ body{
     border-top: 20px;
     border-bottom: 20px;
     padding: 5%;
+}
+.footer{
+    margin-top: 80px;
 }
 .footer p{
     margin: auto;
